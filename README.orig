@@ -1,0 +1,42 @@
+A collection of C extension Vim syntax files for
+- xlib
+- glib
+- gobject
+- gdk
+- gdk-pixbuf
+- gtk+
+- atk
+- pango
+- gimp
+- libgnome
+- libgnomecanvas
+- libgnomeui
+- vte
+- linc
+- gconf
+- ORBit
+
+They are extensions of the standard C syntax highlighting to additional
+types, functions, macros, and constants, they are not meant to replace it.
+So you should include them in your ~/.vim/after/syntax/c.vim file (see
+:h runtimepath for more).  An example is provided as c.vim.example.
+
+The xlib.vim file comes from older Gtk+ syntax higlighting files by Hwanjin
+Choe (see http://www.vim.org/scripts/script.php?script_id=570).
+
+The others were generated with vim-syn-gen.py script by David Neèas (Yeti)
+(see http://trific.ath.cx/resources/vim/scripts/#vim-syn-gen).  They all
+support `deprecated' option, e.g. by setting
+
+  :let glib_enable_deprecated = 1
+
+in your vimrc you can enable highlighting of deprecated declarations in glib.
+Highlighting of deprecated declarations is off by default.
+
+The exact library version from which each syntax file was generated is
+included in its metadata.
+
+Contact: yeti@physics.muni.cz
+
+Happy Vimming!
+

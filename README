@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1000
+
+A collection of C extension syntax files for xlib, glib, gobject, gdk, gdk-pixbuf, gtk+, atk, pango, cairo, gimp, libgnome, libgnomecanvas, libgnomeui, libglade, gtkglext, vte, linc, gconf, and ORBit.
+
+The xlib one was originally created by Hwanjin Choe (vimscript #570), the others were generated from gtk-doc declaration lists and support enabling/disabling of highlighting of deprecated declarations.
