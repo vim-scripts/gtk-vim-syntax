@@ -11,6 +11,7 @@ A collection of C extension Vim syntax files for
 - libgnome
 - libgnomecanvas
 - libgnomeui
+- gtkglext
 - vte
 - linc
 - gconf
