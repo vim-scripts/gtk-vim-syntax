@@ -8,6 +8,7 @@ A collection of C extension Vim syntax files for
 - atk
 - pango
 - gimp
+- libglade
 - libgnome
 - libgnomecanvas
 - libgnomeui
