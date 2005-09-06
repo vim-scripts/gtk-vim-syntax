@@ -7,6 +7,7 @@ A collection of C extension Vim syntax files for
 - gtk+
 - atk
 - pango
+- cairo
 - gimp
 - libglade
 - libgnome
