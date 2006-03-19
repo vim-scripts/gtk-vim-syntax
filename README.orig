@@ -28,13 +28,19 @@ The xlib.vim file comes from older Gtk+ syntax higlighting files by Hwanjin
 Choe (see http://www.vim.org/scripts/script.php?script_id=570).
 
 The others were generated with vim-syn-gen.py script by David Neèas (Yeti)
-(see http://trific.ath.cx/resources/vim/scripts/#vim-syn-gen).  They all
-support `deprecated' option, e.g. by setting
+(see http://trific.ath.cx/resources/vim/scripts/#vim-syn-gen).
+
+They all allow special handling of deprecated symbols.  By default,
+deprecated symbols are not highlighted.  By setting (e.g.)
 
   :let glib_enable_deprecated = 1
 
-in your vimrc you can enable highlighting of deprecated declarations in glib.
-Highlighting of deprecated declarations is off by default.
+in your vimrc you can enable highlighting of deprecated declarations in glib
+as normal symbols.  By setting
+
+  :let glib_deprecated_errors = 1
+
+you can enable highlighting deprecated glib symbols as Error.
 
 The exact library version from which each syntax file was generated is
 included in its metadata.
