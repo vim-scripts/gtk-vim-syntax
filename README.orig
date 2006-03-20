@@ -19,6 +19,10 @@ A collection of C extension Vim syntax files for
 - gconf
 - ORBit
 
+The latest version is available
+- at vim.org: http://www.vim.org/scripts/script.php?script_id=1000
+- at my pages: http://trific.ath.cx/resources/vim/syntax/
+
 They are extensions of the standard C syntax highlighting to additional
 types, functions, macros, and constants, they are not meant to replace it.
 So you should include them in your ~/.vim/after/syntax/c.vim file (see
@@ -27,7 +31,7 @@ So you should include them in your ~/.vim/after/syntax/c.vim file (see
 The xlib.vim file comes from older Gtk+ syntax higlighting files by Hwanjin
 Choe (see http://www.vim.org/scripts/script.php?script_id=570).
 
-The others were generated with vim-syn-gen.py script by David NeËas (Yeti)
+The others were generated with vim-syn-gen.py script by David Neƒças (Yeti)
 (see http://trific.ath.cx/resources/vim/scripts/#vim-syn-gen).
 
 They all allow special handling of deprecated symbols.  By default,
@@ -45,7 +49,14 @@ you can enable highlighting deprecated glib symbols as Error.
 The exact library version from which each syntax file was generated is
 included in its metadata.
 
-Contact: yeti@physics.muni.cz
+Copying:  I hereby waive any potential rights on the syntax files.  I am not
+sure whether a list of library symbols can be copyrighted at all.  But this
+world is full of lawyers with the silliest ideas.  The ideal state (which
+would solve all copyright problems once for all) would be distribution of the
+syntax files directly with the respective libraries, but I do not hope for
+that.
+
+Contact:  yeti@physics.muni.cz
 
 Happy Vimming!
 
