@@ -1,6 +1,7 @@
 A collection of C extension Vim syntax files for
 - xlib
 - glib
+- gio
 - gobject
 - gdk
 - gdk-pixbuf
@@ -27,12 +28,13 @@ A collection of C extension Vim syntax files for
 - gtkglext
 - vte
 - poppler
+- evince
 - gconf
 - ORBit
 
 The latest version is available
 - at vim.org: http://www.vim.org/scripts/script.php?script_id=1000
-- at my pages: http://trific.ath.cx/resources/vim/syntax/
+- at my pages: http://physics.muni.cz/~yeti/vim/
 
 They are extensions of the standard C syntax highlighting to additional
 types, functions, macros, and constants, they are not meant to replace it.
@@ -43,7 +45,7 @@ The xlib.vim file comes from older Gtk+ syntax higlighting files by Hwanjin
 Choe (see http://www.vim.org/scripts/script.php?script_id=570).
 
 The others were generated with vim-syn-gen.py script by David Nečas (Yeti)
-(see http://trific.ath.cx/resources/vim/scripts/#vim-syn-gen).
+(see http://physics.muni.cz/~yeti/vim/).
 
 They all allow special handling of deprecated symbols.  By default,
 deprecated symbols are not highlighted.  By setting (e.g.)
