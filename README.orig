@@ -1,36 +1,30 @@
 A collection of C extension Vim syntax files for
 - xlib
-- glib
-- gio
-- gobject
-- gdk
+- glib (gobject, gio)
 - gdk-pixbuf
-- gtk+
+- gtk2 (gdk2)
+- gtk3 (gdk3)
 - atk
-- gail
 - at-spi
 - pango
 - cairo
+- clutter
 - gimp
+- gstreamer
 - dbus-glib
+- json-glib
 - libglade
-- libgnome
-- libgnomecanvas
-- libgnomeui
 - gtksourceview
 - gnome-desktop
-- gnome-vfs
 - libgsf
-- liboil
 - libnotify
 - librsvg
+- libunique
 - libwnck
 - gtkglext
 - vte
 - poppler
 - evince
-- gconf
-- ORBit
 
 The latest version is available
 - at vim.org: http://www.vim.org/scripts/script.php?script_id=1000
