@@ -5,26 +5,29 @@ A collection of C extension Vim syntax files for
 - gtk2 (gdk2)
 - gtk3 (gdk3)
 - atk
-- at-spi
-- pango
+- at-spi2
 - cairo
 - clutter
-- gimp
-- gstreamer
 - dbus-glib
+- evince
+- fftw3
+- gimp
+- gnome-desktop
+- gstreamer
+- gtkglext
+- gtksourceview
+- gudev
+- gusb
 - json-glib
 - libglade
-- gtksourceview
-- gnome-desktop
 - libgsf
 - libnotify
 - librsvg
 - libunique
 - libwnck
-- gtkglext
-- vte
+- pango
 - poppler
-- evince
+- vte
 
 The latest version is available
 - at vim.org: http://www.vim.org/scripts/script.php?script_id=1000
@@ -36,7 +39,8 @@ So you should include them in your ~/.vim/after/syntax/c.vim file (see
 :h runtimepath for more).  An example is provided as c.vim.example.
 
 The xlib.vim file comes from older Gtk+ syntax higlighting files by Hwanjin
-Choe (see http://www.vim.org/scripts/script.php?script_id=570).
+Choe (see http://www.vim.org/scripts/script.php?script_id=570).  File
+fftw3.vim was created manually.
 
 The others were generated with vim-syn-gen.py script by David Nečas (Yeti)
 (see http://physics.muni.cz/~yeti/vim/).
